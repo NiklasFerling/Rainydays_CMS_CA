@@ -1,0 +1,126 @@
+main div.logo {
+  text-align: center;
+}
+
+img[alt="Rainydays-logo"] {
+  height: 60px;
+  width: auto;
+  margin: 40px auto 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+form input {
+  background-color: #ebebeb;
+  margin-top: 24px;
+}
+
+.container {
+  max-width: 60%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form > div {
+  background-color: #ebebeb;
+  padding: 16px;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shipping-method {
+  display: flex;
+  align-items: center;
+}
+
+.shipping-method > p {
+  margin: auto 16px auto auto;
+  color: #585858;
+  font-weight: 600;
+}
+
+label :first-child {
+  font-weight: 600;
+}
+
+.shipping-method input {
+  margin: auto 16px auto 0;
+}
+
+.summary {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 16px;
+  margin-bottom: 80px;
+}
+
+.summary h3 {
+  margin: 16px 0 24px;
+}
+
+.summary p:first-child {
+  font-weight: 600;
+}
+
+.summary div.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #ebebeb;
+  color: #000;
+  font-weight: 600;
+  display: flex;
+}
+
+.card > * {
+  flex: 1;
+}
+
+.card p {
+  margin: 16px 0;
+}
+
+.card > :last-child {
+  padding-left: 16px;
+}
+
+.card > :last-child :last-child {
+  color: #585858;
+}
+
+.card-img {
+  aspect-ratio: 5/6;
+  max-width: 160px;
+  background-color: rgb(0, 0, 0, 20%);
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 930px) {
+  .container {
+    flex-direction: column;
+    max-width: 80%;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+}

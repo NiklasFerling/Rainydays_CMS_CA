@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Contact us in this form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainydays | Contact</title>
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/contact.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/4c69c38b68.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Hotjar Tracking Code for my site -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3422657, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img src="../assets/Graphics/RainyDays_Logo1.png" alt="Rainydays-logo"
+      /></a>
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox"
+        ><span class="hidden">Hamburger Menu</span
+        ><i class="fas fa-bars">hamburger menu</i></label
+      >
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jackets.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contact</h1>
+        <form action="feedback-success.html" method="get">
+          <input
+            type="text"
+            name="reason"
+            id="reason"
+            placeholder="Reason *"
+            required
+          />
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="First name *"
+              required
+            />
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Last name *"
+              required
+            />
+          </div>
+          <input
+            type="text"
+            name="ordernr"
+            id="ordernr"
+            placeholder="Order number"
+          />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email address *"
+            required
+          />
+          <input type="tel" name="tlf" id="tlf" placeholder="Phone" />
+          <input
+            type="text"
+            name="country"
+            id="country"
+            placeholder="Country *"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message *"
+            required
+          ></textarea>
+          <a><input type="submit" value="Submit" class="cta" /></a>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h4>Contact Support</h4>
+        <p>Email: support@rainydays.com</p>
+        <p>Phone: +99 999 99 999</p>
+      </div>
+      <div class="icons">
+        <a href="https://twitter.com/" aria-label="twitter page"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/" aria-label="instagram page"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/" aria-label="facebook page"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.youtube.com/" aria-label="youtube page"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

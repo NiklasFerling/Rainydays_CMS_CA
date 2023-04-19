@@ -1,0 +1,113 @@
+
+.hero {
+    background-image: url(../assets/Images/couple-trekking-through-rain-highlands1.jpg);
+    min-height: 93vh;
+    background-position: bottom;
+    color: #fff;
+}
+
+.hero div {
+    text-align: left;
+    padding: 80px 0;
+    border-radius: 100px;
+    font-size: 40px;
+}
+
+.sections {
+    display: flex;
+    gap: 20px;
+    max-width: 80%;
+    margin: 80px auto;
+}
+
+.sections > * {
+    display: flex;
+    flex: 1;
+    min-height: 354px;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.sections h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 20px rgb(0 0 0));
+}
+
+.men {   
+    background-image: url(../assets/Images/kal-visuals-Z-4JFkMN_X8-unsplash.jpg); 
+}
+
+.women {    
+    background-image: url(../assets/Images/Woman\ hike.jpg);
+}
+
+.kids {    
+    background-image: url(../assets/Images/annie-spratt-290ur3i59H0-unsplash.jpg);
+}
+
+.info {    
+    background-image: url(../assets/Images/Man\ mountain\ snow.jpg);
+    width: 100%;
+    min-height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.info div {
+    max-width: 80%;
+    margin: auto;
+    filter: drop-shadow(0px 0px 100px rgb(0 0 0));
+}
+
+.info h2 {
+    position: relative;
+    top: 80px;
+    font-size: 128px
+}
+
+.info p {
+    font-size: 36px;
+    max-width: 602px;
+}
+
+.info a {    
+    margin-bottom: 80px;
+}
+
+footer {
+    margin: 0;
+}
+
+@media (max-width: 930px) {
+
+    .sections {
+        flex-direction: column;
+    }
+
+    .info h2 {
+        font-size: 96px;
+    }
+
+    .hero p {
+        font-size: 24px;
+    }
+
+    .cta {
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+
+    .hero div {
+        text-align: center;
+    }
+}

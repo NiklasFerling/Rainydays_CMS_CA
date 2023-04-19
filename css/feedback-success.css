@@ -1,0 +1,38 @@
+section {
+    margin: 48px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+h1 {
+    font-size: 48px;
+}
+
+i {
+    font-size: 80px;
+    color: #4DCA4A;
+}
+
+a {
+    margin: auto;
+}
+
+p {
+    font-size: 24px;
+}
+
+img {
+    width: auto;
+    height: 80px;
+}
+
+div {
+    margin: 40px auto;
+}
+
+body {
+    min-height: auto;
+}

@@ -1,0 +1,62 @@
+.hero {
+    background-image: url(../assets/Images/Man\ mountain\ hike\ snow.jpg);
+    min-height: 584px;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.weather-icons {
+    display: flex;
+    font-size: 56px;
+    color: rgb(88, 88, 88);
+    justify-content: center;
+    margin: 80px 0;
+    gap: 60px;
+}
+
+.about {
+    max-width: 60%;
+    margin: auto;
+    font-size: 24px;
+}
+
+.about h2 {
+    font-size: 48px;
+}
+
+.about p {
+    margin: 40px 0 120px;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 296px;
+}
+
+.adventures img {
+    height: 296px;
+    object-fit: cover;
+}
+
+/*Media Queries*/
+
+@media (max-width: 600px) {
+
+    .about {
+        max-width: 80%;
+    }
+
+    .about > a {
+        margin: auto;
+    }
+
+    .adventures {
+        grid-template-columns: auto;
+        height: auto;
+    }
+
+
+}

@@ -1,0 +1,58 @@
+main section{
+    max-width: 60%;
+    margin: 40px auto 0px;
+}
+
+main a:first-child {
+    font-size: 24px;
+    color: #585858;
+    position: relative;
+    left: 80px;
+    top: 36px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 32px 0;
+    padding: 8px 16px;
+}
+
+textarea {
+    height: 224px;
+    margin: 32px 0;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    resize: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form div {
+    display: flex;
+    gap: 16px;
+}
+
+form div > * {
+    flex: 1;
+}
+
+@media (max-width: 930px) {
+    form div {
+        flex-direction: column;
+    }
+
+    main section {
+        max-width: 80%;
+    }
+}

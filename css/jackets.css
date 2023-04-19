@@ -1,0 +1,14 @@
+.hero {
+    background-image: url(../assets/Images/kamil-kalbarczyk-lY11p3yNVxE-unsplash.jpg);
+    min-height: 584px;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 40px 0;
+    text-align: center;
+}
